@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        title The Home Depot | Atrapa las herramientas
+        link(rel="shortcut icon" href="favicon.ico")
+        link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css")
+        link(rel="stylesheet", href="app/app.css")
+    body
+        .urlerror
+            div
+                div.mb-4 Ingresa tu número de ticket.
+                form(actions="#")#ticketForm
+                    input(class="ticketN" placeholder="# de ticket" type="number" minlength="22" maxlength="22" required).text-center.mb-2
+                    .error22 Ingresa un ticket válido.
+                    button(type="submit").btncomenzar.btnTicket.animate__animated Continuar
+        .urlalready Hemos registrado tu participación del día de hoy. <br>Gracias por tu opinión.
+        .container
+            header
+                div.middlebar
+                h1.animate__animated.animate__fadeInDownBig: img(src="app/thehomedepot.svg")
+
+            section.mt-2
+                .certificados.container
+                    .start.text-center.mt-2.animate__animated.animate__bounceIn
+                        h2.h1 Bienvenido a Atrapa las Herramientas
+                        p.small Antes de empezar, por favor indica el certificado electrónico que quisieras recibir en caso de resultar ganador.
+                        p Selecciona tu certificado de valor indicado
+                    .row.justify-content-center.align-items-center.flex-wrap
+                        - var cer = []
+                        - cer.push(['xbox', '<p>Disfruta de la nueva generación de juegos y entretenimiento con Xbox. Explora consolas, juegos nuevos y clásicos, y accesorios de Xbox empezar tu colección.</p><p>No puedes usar la tarjeta regalo de Xbox para comprar directamente una suscripción a Xbox Live Gold ni ningún otro servicio de suscripción. Asegúrate que tu cuenta de facturación es de México y se encuentra en Pesos Mexicanos, de lo contrario, no podrás canjear la tarjeta regalo.</p>', '$200'])
+                        - cer.push(['xboxlive', '<p>Juega en línea con tu suscripción Gold de 1 mes y únete a la mejor comunidad de jugadores, encuentra rápidamente compañeros para jugar con las opciones Clubes y Buscando grupo. Podrás conseguir entre 2 y 4 juegos gratuitos todos los meses y descuentos de hasta el 50-75 % en la tienda de Xbox One. Sólo válido en México.</p>', '$169'])
+                        - cer.push(['playstation', '<p>Saldo en formato de dólares en la cuenta del usuario para comprar juegos completos, descarga de contenido, comprar o rentar películas y pagar subscripciones dentro de las aplicaciones de la consola.</p>', '$10 USD'])
+                        - cer.push(['spotify', '<p>La tarjeta de regalo es válida para planes Premium Individual.  No es posible usarlas para Premium para Estudiantes, Premium Familiar, Premium Duo ni ofertas de prueba. </p>', '$100'])
+                        - cer.push(['itunes', '<p>Disfruta de una experiencia de entretenimiento totalmente nueva. Utiliza la Tarjeta App Store & iTunes para comprar apps, juegos, música y películas. Válida únicamente para compras realizadas en México de Apple Media Services.</p>', '$200'])
+                        - cer.push(['wow', '<p>Tarjeta pre cargada para consumir en tus restaurantes favoritos.  Válido en Starbucks, Burger King, Chili’s, California Pizza Kitchen, P.F. Chang’s, Italianni’s, The Cheesecake Factory, Vips y El Portón operados por Grupo Alsea en la República Mexicana, conoce la cobertura disponible en: <a href="https://www.wowrewards.mx/" target="_blank">www.wowrewards.mx</a>. Se deberá presentar la App de Wow Rewards con el código de la tarjeta agregada para gozar del saldo.</p>', '$250'])
+                        - cer.push(['uber', '<p>Paga tus viajes de Uber y comidas de Uber Eats. Esta tarjeta puede ser canjeada a través de la aplicación móvil de Uber y Uber Eats y pude ser utilizada en las ciudades en México donde Uber Eats y/o Uber está disponible y en dónde no existan restricciones legales o regulatorias para su uso. La tarjeta no puede ser utilizada fuera de México.</p>', '$150'])
+                        - cer.push(['amazon', '<p>Las Tarjetas Regalo de Amazon.com.mx pueden canjearse por millones de productos de Amazon. Las Tarjetas Regalo de Amazon.com.mx pueden ser utilizados únicamente en la compra de productos participantes en <a href="https://www.amazon.com.mx" target="_blank">amazon.com.mx</a>.</p>', '$200'])
+                        - cer.push(['facturafiel', '<p>Crea FacturaFiel.com  brinda a sus usuarios la mejor opción costo-beneficio existente en el mercado para expedir facturas y Comprobantes Fiscales Digitales por Internet (CFDI). Esta tarjeta es válida por 25 folios.</p>', '$200'])
+                        - cer.push(['superdoctor', '<p>Tarjeta súper Doctor - 3 meses, algunos de los beneficios son: Asistencia Nutricional telefónica ilimitada, Asistencia Psicológica telefónica ilimitada,  Asistencia Médica telefónica 24/7 ilimitada, Doctor en tu Casa sin costo 3 consultas (Limitado a 1 consulta al mes), Asistencia Dental 2 consultas + limpieza sin costo, Servicio de Ambulancia sin costo (2 eventos), Asistencia VISUAL en Ópticas Devlyn, DescuentaMx disfruta de increíbles descuentos en: Farmacias, Laboratorios, Restaurantes, entretenimiento, entre otros.</p>', '$240'])
+                        - cer.push(['cinepolis', '<p>¡Disfruta los mejores estrenos!, Cinépolis Klic es la plataforma de streaming de Cinépolis con los estrenos recién salidos del cine, las mejores películas de catálogo, series de TV y entretenimiento para toda la familia. Este código te permitirá disfrutar de 4 películas disponible en renta y renta anticipada.</p>', '$200'])
+                        - cer.push(['mixup', '<p>Mixup ¡La tienda más divertida! Música, películas, libros, videojuegos, audífonos, bocinas, cables, juguetes y tecnología. Código válido únicamente para compras en línea. </p>', '$200'])
+                        - cer.push(['enviaflores', '<p>Envía flores, globos y regalos a todo México y sorprende a esa persona especial. Úsalo en <a href="https://www.enviaflores.com" target="_blank">www.enviaflores.com</a> o a la app iOS (enviaflores.com).</p>', '$250'])
+                        - cer.push(['gandhi', '<p>En Gandhi, busca y compra el libro que estás deseando de una manera Fácil y Segura. Código válido unicamente en <a href="https://www.gandhi.com.mx" target="_blank">www.gandhi.com.mx</a>, este código no es válido en tiendas físicas ni en Walmart y Palacio de Hierro.</p>', '$200'])
+                        - cer.push(['puntosfutbol', '<p>Puntos Fútbol es una plataforma de entretenimiento para los fanátic@s del Fútbol, usa tu saldo para partiicpar en Trivias, Subastas, Marcadores y Retas donde podrás demostrar tus conocimientos y ganar increíbles premios.</p>', '$200'])
+                        each v in cer
+                            .col-md-2.col-4: div(data=v title=v[1]).certificado.animate__animated.animate__bounceIn
+                                img(src="app/cert/"+v[0]+".png", alt="Itunes").img-fluid
+                                div.valor #{v[2]}
+                    .popup.hidden
+                        .container
+                            .row.justify-content-center.align-items-center
+                                .col-4
+                                    .certificado: img(src="app/cert/xbox.png", alt="Itunes").img-fluid
+                                    .valor $200
+                                .col-8.texts
+                                    p Disfruta de la nueva generación de juegos y entretenimiento con Xbox. Explora consolas, juegos nuevos y clásicos, y accesorios de Xbox empezar tu colección.
+                                    p No puedes usar la tarjeta regalo de Xbox para comprar directamente una suscripción a Xbox Live Gold ni ningún otro servicio de suscripción. Asegúrate que tu cuenta de facturación es de México y se encuentra en Pesos Mexicanos, de lo contrario, no podrás canjear la tarjeta regalo.
+                            .text-center
+                                button.btncomenzar.btnclose.animate__animated CERRAR
+                                button.btncomenzar.btnstart.animate__animated JUGAR
+
+
+        .gamecontainer.hidden
+            iframe()
+        
+        .gameend.hidden
+            .text-center
+                div.h2 ID de participación: #[strong.idparticipacion 0]
+                button.btncomenzar.btnfinish.animate__animated.animate__pulse.animate__infinite.animate__slower TERMINAR
+
+        footer
+            .container
+                .text-right: a(href="https://blue.mx" target="_blank" alt="Blue Pure Loyalty"): img(src="app/poweredbyBlue.png")
+            .plecafoot.text-center: a(href="#").terminos Términos y condiciones
+            .plecablue.text-center: a(href="https://blue.mx" target="_blank" alt="Blue Pure Loyalty"): img(src="app/bluemx.png")
+        .terminosycondiciones
+            .closeterm: i.fas.fa-times
+            .container
+                include _terminos
+
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous")
+        script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/js-url/2.5.3/url.min.js")
+        script.
+            
+            let certificate = null
+            let sound = new Howl({src: ['app/coin.mp3']})
+            let SurveyID = url('?SurveyID')
+            let TicketID = ''
+            $(document).ready(function () {
+                
+                $('.ticketN').val('')
+
+                if(SurveyID==undefined || SurveyID.length!=14){
+                    $('.urlerror').addClass('active')
+                        /* TIcket btn */
+                        ticketThen()
+                        return false
+                }
+
+                 /* VERIFY SURVEYID */
+                $.ajax({
+                    url: "https://testing4.myblueengine.com/WebSiteHomeDepot/Services.aspx/ValidateSurvey",
+                    data: JSON.stringify({ SurveyID: SurveyID }),
+                    contentType: "application/json; charset=utf-8",
+                    datatype: "json",
+                    type: "post",
+                    success: function (response) {
+                        if(response.d != 0){
+                            $('.urlalready').addClass('active')
+                            return false
+                        }
+                    }
+                });
+
+                pageFunctions()
+
+
+            }) /* end ready */
+
+
+            function ticketThen(){
+                $('#ticketForm').submit(function (e) {
+                    e.preventDefault()
+
+                    TicketID = $('.ticketN').val().trim()
+                    
+                    if(TicketID.length != 22){
+                        $('.error22').show()
+                        return false
+                    }
+
+                    if(TicketID){
+                        /* VERIFY TicketNum */
+                        $.ajax({
+                            url: "https://testing4.myblueengine.com/WebSiteHomeDepot/Services.aspx/ValidateTicket",
+                            data: JSON.stringify({ TicketID: TicketID }),
+                            contentType: "application/json; charset=utf-8",
+                            datatype: "json",
+                            type: "post",
+                            success: function (response) {
+                                if(response.d != 0){
+                                    $('.urlalready').addClass('active')
+                                    return false
+                                }
+                            }
+                        })
+
+                        pageFunctions()
+                        $('.urlerror').removeClass('active')
+                    } else {
+                        console.log('ERROR: No ticket')
+                    }
+                })
+            }
+
+            function pageFunctions () {
+                //Select Certificate
+                $('.certificado').click(function () {
+                    $('.certificado.active').removeClass('active')
+                    $('.certificado.animate__heartBeat').removeClass('animate__heartBeat')
+                    $('.certificado.animate__bounceIn').removeClass('animate__bounceIn')
+                    $('.certificado').removeClass('animate__delay-3s')
+                    $('.certificado').removeClass('')
+                    $(this).addClass('active animate__heartBeat')
+                    sound.play()
+                    var datacert = JSON.parse($(this).attr('data'))
+                    console.log(datacert)
+                    certificate = datacert[0]
+                    if(certificate!=null){
+                        $('.popup').removeClass('hidden')
+                        $('.popup img').attr('src',"app/cert/"+datacert[0]+".png")
+                        $('.popup .valor').html(datacert[2])
+                        $('.popup .texts').html(datacert[1])
+                        
+                        
+                    }
+                })
+                $('.btnclose').click(function () {
+                    certificate = null
+                    $('.popup').addClass('hidden')
+                })
+                $('.btnstart').click(function () {
+                    $('.gamecontainer').removeClass('hidden')
+                    $('iframe').attr('src', 'thd/index.html')
+                    sound.play()
+                })
+
+                
+
+                $('.terminos').click(function(){
+                    $('.terminosycondiciones').show()
+                })
+                $('.terminosycondiciones .closeterm').click(function(){
+                    $('.terminosycondiciones').hide()
+                })
+            }
+
+
+            
+
+            function closeGame(){
+                $('.gamecontainer').addClass('hidden')
+                $('iframe').attr('src', '')
+            }
+
+           $('.btnfinish').click(function (){
+                window.location.href = 'https://homedepot.com.mx/'
+           })
+
+            /* MESSAGE FROM GAME */
+            window.addEventListener('message', function (ev){
+                let thescore = JSON.parse(ev.data)
+                console.log(thescore)
+                if(thescore.score){
+                    var finalscoreval = thescore.score._value
+                    var tools = thescore.tools._children
+                    var rocks = thescore.rocks._value
+                    var toolstring = 'A='+tools.A._value+'&B='+tools.B._value+'&C='+tools.C._value+'&D='+tools.D._value+'&E='+tools.E._value+'&rocas='+rocks
+
+                    $.ajax({
+                        url: 'https://testing4.myblueengine.com/WebSiteHomeDepot/Services.aspx/SaveData',
+                        data: JSON.stringify({ SurveyID: (SurveyID || 0), TicketID:TicketID, Certificate: certificate, Result: finalscoreval.toString(), Desglose: toolstring}),
+                        contentType: "application/json; charset=utf-8",
+                        datatype: "json",
+                        type: "post",
+                        success: function (response) {
+                            $('.gameend').removeClass('hidden')
+                            $('.idparticipacion').text(response.d)
+                        }, error: function (err){
+                            console.log('Ocurrió un error')
+                            console.log(err)
+                        }
+                    });
+                } else {
+                    closeGame()
+                }
+
+                    
+                
+            })
