@@ -16,471 +16,2864 @@
 		"oAP": "\/.gitattributes",
 		"oF": 0
 		},
-	"\/activity\/apple-touch-icon-1024x1024.png": {
+	"\/activities\/atrapa\/gd-splash-image.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/gd-splash-image-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/index.html",
+		"oF": 0
+		},
+	"\/activities\/atrapa\/pixi-renderers\/layer-pixi-renderer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/pixi-renderers\/layer-pixi-renderer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/pixi-renderers\/loadingscreen-pixi-renderer-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/pixi-renderers\/loadingscreen-pixi-renderer-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/pixi-renderers\/loadingscreen-pixi-renderer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/pixi-renderers\/loadingscreen-pixi-renderer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/pixi-renderers\/pixi-filters-tools.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/pixi-renderers\/pixi-filters-tools-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/pixi-renderers\/pixi-image-manager.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/pixi-renderers\/pixi-image-manager-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/pixi-renderers\/pixi.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/pixi-renderers\/pixi-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/pixi-renderers\/runtimegame-pixi-renderer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/pixi-renderers\/runtimegame-pixi-renderer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/pixi-renderers\/runtimescene-pixi-renderer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/pixi-renderers\/runtimescene-pixi-renderer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/pixi-renderers\/spriteruntimeobject-pixi-renderer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/pixi-renderers\/spriteruntimeobject-pixi-renderer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/backbtn.png": {
+		"ft": 32768,
+		"iS": 2107,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/backbtn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/bgarr-1-0.png": {
+		"ft": 32768,
+		"iS": 1735,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/bgarr-1-0.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/bgarr-1.png": {
+		"ft": 32768,
+		"iS": 1150,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/bgarr-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/bgarr-2-0.png": {
+		"ft": 32768,
+		"iS": 1736,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/bgarr-2-0.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/bgarr-2.png": {
+		"ft": 32768,
+		"iS": 1582,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/bgarr-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/bgarr-3-0.png": {
+		"ft": 32768,
+		"iS": 1757,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/bgarr-3-0.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/bgarr-3.png": {
+		"ft": 32768,
+		"iS": 1159,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/bgarr-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/bgarr-4.png": {
+		"ft": 32768,
+		"iS": 1739,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/bgarr-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/bgarr-5.png": {
+		"ft": 32768,
+		"iS": 1744,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/bgarr-5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/bgarr-6.png": {
+		"ft": 32768,
+		"iS": 1743,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/bgarr-6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/bgarr.png": {
+		"ft": 32768,
+		"iS": 5604,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/bgarr.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/bomb1.png": {
+		"ft": 32768,
+		"iS": 2239,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/bomb1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/bomb2.png": {
+		"ft": 32768,
+		"iS": 2218,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/bomb2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btn-main-menu-hover.png": {
+		"ft": 32768,
+		"iS": 4610,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btn-main-menu-hover.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btn-main-menu-normal.png": {
+		"ft": 32768,
+		"iS": 4616,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btn-main-menu-normal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btn-main-menu-pressed.png": {
+		"ft": 32768,
+		"iS": 4966,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btn-main-menu-pressed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btn-start-hover.png": {
+		"ft": 32768,
+		"iS": 4637,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btn-start-hover.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btn-start-normal.png": {
+		"ft": 32768,
+		"iS": 4697,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btn-start-normal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btn-start-pressed.png": {
+		"ft": 32768,
+		"iS": 5042,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btn-start-pressed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btn-try-again-hover.png": {
+		"ft": 32768,
+		"iS": 5576,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btn-try-again-hover.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btn-try-again-normal.png": {
+		"ft": 32768,
+		"iS": 5603,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btn-try-again-normal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btn-try-again-pressed.png": {
+		"ft": 32768,
+		"iS": 5969,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btn-try-again-pressed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btn_comenzar_active.png": {
+		"ft": 32768,
+		"iS": 4648,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btn_comenzar_active.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btncomenzar.png": {
+		"ft": 32768,
+		"iS": 5575,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btncomenzar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btnl1.png": {
+		"ft": 32768,
+		"iS": 1398,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btnl1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btnl2.png": {
+		"ft": 32768,
+		"iS": 1546,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btnl2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btnpause.png": {
+		"ft": 32768,
+		"iS": 1996,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btnpause.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btnplay.png": {
+		"ft": 32768,
+		"iS": 1892,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btnplay.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btnplayBig.png": {
+		"ft": 32768,
+		"iS": 3457,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btnplayBig.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btnr1.png": {
+		"ft": 32768,
+		"iS": 1399,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btnr1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btnr2.png": {
+		"ft": 32768,
+		"iS": 1530,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btnr2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btnsiguiente.png": {
+		"ft": 32768,
+		"iS": 4494,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btnsiguiente.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/btnsiguiente_active.png": {
+		"ft": 32768,
+		"iS": 5569,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/btnsiguiente_active.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/code0.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/code0-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/code1.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/code1-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/code2.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/code2-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/code3.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/code3-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/coin.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/coin.mp3",
+		"oF": 0
+		},
+	"\/activities\/atrapa\/thd\/coin2.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/coin2.mp3",
+		"oF": 0
+		},
+	"\/activities\/atrapa\/thd\/collect.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/collect.mp3",
+		"oF": 0
+		},
+	"\/activities\/atrapa\/thd\/create.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/create.mp3",
+		"oF": 0
+		},
+	"\/activities\/atrapa\/thd\/cubeta.png": {
+		"ft": 32768,
+		"iS": 12682,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/cubeta.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/cubeta@2x.png": {
+		"ft": 32768,
+		"iS": 25676,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/cubeta@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/cubetafinal.png": {
+		"ft": 32768,
+		"iS": 134929,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/cubetafinal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/cubetaIdle.png": {
+		"ft": 32768,
+		"iS": 19759,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/cubetaIdle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/cubetaIl.png": {
+		"ft": 32768,
+		"iS": 33824,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/cubetaIl.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/cubetaLight.png": {
+		"ft": 32768,
+		"iS": 21876,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/cubetaLight.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/data.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/data-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/dataRelative.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/dataRelative-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/empty.png": {
+		"ft": 32768,
+		"iS": 5351,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/empty.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/error.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/error.mp3",
+		"oF": 0
+		},
+	"\/activities\/atrapa\/thd\/events-tools\/cameratools-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/events-tools\/cameratools-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/events-tools\/cameratools.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/events-tools\/cameratools-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/events-tools\/commontools-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/events-tools\/commontools-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/events-tools\/commontools.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/events-tools\/commontools-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/events-tools\/inputtools-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/events-tools\/inputtools-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/events-tools\/inputtools.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/events-tools\/inputtools-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/events-tools\/networktools.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/events-tools\/networktools-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/events-tools\/objecttools-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/events-tools\/objecttools-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/events-tools\/objecttools.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/events-tools\/objecttools-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/events-tools\/runtimescenetools-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/events-tools\/runtimescenetools-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/events-tools\/runtimescenetools.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/events-tools\/runtimescenetools-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/events-tools\/soundtools-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/events-tools\/soundtools-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/events-tools\/soundtools.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/events-tools\/soundtools-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/events-tools\/storagetools-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/events-tools\/storagetools-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/events-tools\/storagetools.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/events-tools\/storagetools-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/events-tools\/stringtools-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/events-tools\/stringtools-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/events-tools\/stringtools.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/events-tools\/stringtools-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/events-tools\/windowtools-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/events-tools\/windowtools-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/events-tools\/windowtools.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/events-tools\/windowtools-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/AnchorBehavior\/anchorruntimebehavior-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/AnchorBehavior\/anchorruntimebehavior-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/AnchorBehavior\/anchorruntimebehavior.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/AnchorBehavior\/anchorruntimebehavior-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/BBText\/bbtextruntimeobject-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/BBText\/bbtextruntimeobject-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/BBText\/bbtextruntimeobject-pixi-renderer-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/BBText\/bbtextruntimeobject-pixi-renderer-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/BBText\/bbtextruntimeobject-pixi-renderer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/BBText\/bbtextruntimeobject-pixi-renderer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/BBText\/bbtextruntimeobject.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/BBText\/bbtextruntimeobject-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/BBText\/pixi-multistyle-text\/dist\/pixi-multistyle-text.umd-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/BBText\/pixi-multistyle-text\/dist\/pixi-multistyle-text.umd-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/BBText\/pixi-multistyle-text\/dist\/pixi-multistyle-text.umd.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/BBText\/pixi-multistyle-text\/dist\/pixi-multistyle-text.umd-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/ParticleSystem\/particleemitterobject-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/ParticleSystem\/particleemitterobject-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/ParticleSystem\/particleemitterobject-pixi-renderer-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/ParticleSystem\/particleemitterobject-pixi-renderer-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/ParticleSystem\/particleemitterobject-pixi-renderer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/ParticleSystem\/particleemitterobject-pixi-renderer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/ParticleSystem\/particleemitterobject.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/ParticleSystem\/particleemitterobject-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/ParticleSystem\/pixi-particles-pixi-renderer.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/ParticleSystem\/pixi-particles-pixi-renderer.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/ParticleSystem\/pixi-particles-pixi-renderer.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/ParticleSystem\/pixi-particles-pixi-renderer.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/Physics2Behavior\/box2d-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/Physics2Behavior\/box2d-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/Physics2Behavior\/box2d.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/Physics2Behavior\/box2d-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/Physics2Behavior\/physics2runtimebehavior-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/Physics2Behavior\/physics2runtimebehavior-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/Physics2Behavior\/physics2runtimebehavior.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/Physics2Behavior\/physics2runtimebehavior-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/PrimitiveDrawing\/shapepainterruntimeobject-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/PrimitiveDrawing\/shapepainterruntimeobject-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/PrimitiveDrawing\/shapepainterruntimeobject-pixi-renderer-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/PrimitiveDrawing\/shapepainterruntimeobject-pixi-renderer-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/PrimitiveDrawing\/shapepainterruntimeobject-pixi-renderer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/PrimitiveDrawing\/shapepainterruntimeobject-pixi-renderer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/PrimitiveDrawing\/shapepainterruntimeobject.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/PrimitiveDrawing\/shapepainterruntimeobject-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/TextObject\/textruntimeobject-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/TextObject\/textruntimeobject-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/TextObject\/textruntimeobject-pixi-renderer-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/TextObject\/textruntimeobject-pixi-renderer-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/TextObject\/textruntimeobject-pixi-renderer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/TextObject\/textruntimeobject-pixi-renderer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/Extensions\/TextObject\/textruntimeobject.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/Extensions\/TextObject\/textruntimeobject-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/felicidades.png": {
+		"ft": 32768,
+		"iS": 44209,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/felicidades.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/finished.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/finished.mp3",
+		"oF": 0
+		},
+	"\/activities\/atrapa\/thd\/fontfaceobserver-font-manager\/fontfaceobserver-font-manager-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/fontfaceobserver-font-manager\/fontfaceobserver-font-manager-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/fontfaceobserver-font-manager\/fontfaceobserver-font-manager.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/fontfaceobserver-font-manager\/fontfaceobserver-font-manager-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/fontfaceobserver-font-manager\/fontfaceobserver-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/fontfaceobserver-font-manager\/fontfaceobserver-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/fontfaceobserver-font-manager\/fontfaceobserver.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/fontfaceobserver-font-manager\/fontfaceobserver-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/force.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/force-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/game-over.png": {
+		"ft": 32768,
+		"iS": 28576,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/game-over.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/game-title.png": {
+		"ft": 32768,
+		"iS": 52662,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/game-title.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/gd-splash-image-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/gd-splash-image-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/gd-splash-image.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/gd-splash-image-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/gd.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/gd-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/gdjs-evtsext__flash__flash.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/gdjs-evtsext__flash__flash-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/gdjs-evtsext__health__health.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/gdjs-evtsext__health__health-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/gdjs-evtsext__sinemovement__sinemovement.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/gdjs-evtsext__sinemovement__sinemovement-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/gdjs-evtsext__stayonscreen__stayonscreen.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/gdjs-evtsext__stayonscreen__stayonscreen-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/geometry1.png": {
+		"ft": 32768,
+		"iS": 3558,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/geometry1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/geometry2.png": {
+		"ft": 32768,
+		"iS": 2919,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/geometry2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/geometry3.png": {
+		"ft": 32768,
+		"iS": 3787,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/geometry3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/geometry4.png": {
+		"ft": 32768,
+		"iS": 3687,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/geometry4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/HelveticaNeue.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/HelveticaNeue.ttf",
+		"oF": 0
+		},
+	"\/activities\/atrapa\/thd\/HelveticaNeue2.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/HelveticaNeue2.ttf",
+		"oF": 0
+		},
+	"\/activities\/atrapa\/thd\/HelveticaNeueLight.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/HelveticaNeueLight.ttf",
+		"oF": 0
+		},
+	"\/activities\/atrapa\/thd\/howler-sound-manager\/howler-sound-manager-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/howler-sound-manager\/howler-sound-manager-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/howler-sound-manager\/howler-sound-manager.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/howler-sound-manager\/howler-sound-manager-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/howler-sound-manager\/howler.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/howler-sound-manager\/howler.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/howler-sound-manager\/howler.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/howler-sound-manager\/howler.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/iccomputer.png": {
+		"ft": 32768,
+		"iS": 1632,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/iccomputer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/icphone.png": {
+		"ft": 32768,
+		"iS": 1375,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/icphone.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/index.html",
+		"oF": 0
+		},
+	"\/activities\/atrapa\/thd\/inputmanager.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/inputmanager-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/jsonmanager.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/jsonmanager-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/killed.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/killed.mp3",
+		"oF": 0
+		},
+	"\/activities\/atrapa\/thd\/l1.png": {
+		"ft": 32768,
+		"iS": 1671,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/l1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/l2.png": {
+		"ft": 32768,
+		"iS": 1980,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/l2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/layer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/layer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/libs\/hshg-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/libs\/hshg-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/libs\/hshg.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/libs\/hshg-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/libs\/jshashtable-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/libs\/jshashtable-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/libs\/jshashtable.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/libs\/jshashtable-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/libs\/rbush-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/libs\/rbush-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/libs\/rbush.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/libs\/rbush-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/life-0.png": {
+		"ft": 32768,
+		"iS": 3714,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/life-0.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/life-1.png": {
+		"ft": 32768,
+		"iS": 4316,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/life-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/life-2.png": {
+		"ft": 32768,
+		"iS": 4375,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/life-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/life-3.png": {
+		"ft": 32768,
+		"iS": 4074,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/life-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/mainbackground.png": {
+		"ft": 32768,
+		"iS": 4239,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/mainbackground.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/mainbackgroundError.png": {
+		"ft": 32768,
+		"iS": 4246,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/mainbackgroundError.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/metal1.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/metal1.mp3",
+		"oF": 0
+		},
+	"\/activities\/atrapa\/thd\/monster-idle0.png": {
+		"ft": 32768,
+		"iS": 11335,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/monster-idle0.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/monster-idle1.png": {
+		"ft": 32768,
+		"iS": 11143,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/monster-idle1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/monster-idle10.png": {
+		"ft": 32768,
+		"iS": 11335,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/monster-idle10.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/monster-idle11.png": {
+		"ft": 32768,
+		"iS": 11307,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/monster-idle11.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/monster-idle2.png": {
+		"ft": 32768,
+		"iS": 11050,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/monster-idle2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/monster-idle3.png": {
+		"ft": 32768,
+		"iS": 10940,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/monster-idle3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/monster-idle4.png": {
+		"ft": 32768,
+		"iS": 10462,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/monster-idle4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/monster-idle5.png": {
+		"ft": 32768,
+		"iS": 9737,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/monster-idle5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/monster-idle6.png": {
+		"ft": 32768,
+		"iS": 10462,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/monster-idle6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/monster-idle7.png": {
+		"ft": 32768,
+		"iS": 10940,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/monster-idle7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/monster-idle8.png": {
+		"ft": 32768,
+		"iS": 11050,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/monster-idle8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/monster-idle9.png": {
+		"ft": 32768,
+		"iS": 11206,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/monster-idle9.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/monster-killed1.png": {
+		"ft": 32768,
+		"iS": 8949,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/monster-killed1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/no1.png": {
+		"ft": 32768,
+		"iS": 10498,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/no1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/oncetriggers.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/oncetriggers-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/pausesound.mp3": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/pausesound.mp3",
+		"oF": 0
+		},
+	"\/activities\/atrapa\/thd\/pixi-renderers\/layer-pixi-renderer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/pixi-renderers\/layer-pixi-renderer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/pixi-renderers\/loadingscreen-pixi-renderer-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/pixi-renderers\/loadingscreen-pixi-renderer-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/pixi-renderers\/loadingscreen-pixi-renderer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/pixi-renderers\/loadingscreen-pixi-renderer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/pixi-renderers\/pixi-filters-tools-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/pixi-renderers\/pixi-filters-tools-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/pixi-renderers\/pixi-filters-tools.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/pixi-renderers\/pixi-filters-tools-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/pixi-renderers\/pixi-image-manager-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/pixi-renderers\/pixi-image-manager-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/pixi-renderers\/pixi-image-manager.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/pixi-renderers\/pixi-image-manager-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/pixi-renderers\/pixi-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/pixi-renderers\/pixi-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/pixi-renderers\/pixi.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/pixi-renderers\/pixi-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/pixi-renderers\/runtimegame-pixi-renderer-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/pixi-renderers\/runtimegame-pixi-renderer-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/pixi-renderers\/runtimegame-pixi-renderer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/pixi-renderers\/runtimegame-pixi-renderer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/pixi-renderers\/runtimescene-pixi-renderer-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/pixi-renderers\/runtimescene-pixi-renderer-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/pixi-renderers\/runtimescene-pixi-renderer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/pixi-renderers\/runtimescene-pixi-renderer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/pixi-renderers\/spriteruntimeobject-pixi-renderer-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/pixi-renderers\/spriteruntimeobject-pixi-renderer-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/pixi-renderers\/spriteruntimeobject-pixi-renderer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/pixi-renderers\/spriteruntimeobject-pixi-renderer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/polygon.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/polygon-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/profiler.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/profiler-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/puntos.png": {
+		"ft": 32768,
+		"iS": 9201,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/puntos.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/r1.png": {
+		"ft": 32768,
+		"iS": 2054,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/r1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/r2.png": {
+		"ft": 32768,
+		"iS": 1575,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/r2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/runtimebehavior.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/runtimebehavior-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/runtimegame.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/runtimegame-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/runtimeobject.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/runtimeobject-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/runtimescene.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/runtimescene-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/scenestack.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/scenestack-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/spriteruntimeobject.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/spriteruntimeobject-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/tb_0.png": {
+		"ft": 32768,
+		"iS": 1769,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tb_0.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/tb_1.png": {
+		"ft": 32768,
+		"iS": 1802,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tb_1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/tb_10.png": {
+		"ft": 32768,
+		"iS": 1811,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tb_10.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/tb_2.png": {
+		"ft": 32768,
+		"iS": 1744,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tb_2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/tb_3.png": {
+		"ft": 32768,
+		"iS": 1835,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tb_3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/tb_4.png": {
+		"ft": 32768,
+		"iS": 1763,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tb_4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/tb_5.png": {
+		"ft": 32768,
+		"iS": 1830,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tb_5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/tb_6.png": {
+		"ft": 32768,
+		"iS": 1816,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tb_6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/tb_7.png": {
+		"ft": 32768,
+		"iS": 1834,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tb_7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/tb_8.png": {
+		"ft": 32768,
+		"iS": 1807,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tb_8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/tb_9.png": {
+		"ft": 32768,
+		"iS": 1826,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tb_9.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/text1.png": {
+		"ft": 32768,
+		"iS": 67553,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/text1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/text2.png": {
+		"ft": 32768,
+		"iS": 60900,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/text2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/text3.png": {
+		"ft": 32768,
+		"iS": 117738,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/text3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/tiempo.png": {
+		"ft": 32768,
+		"iS": 8579,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tiempo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/timebar.png": {
+		"ft": 32768,
+		"iS": 815,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/timebar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/timebar1.png": {
+		"ft": 32768,
+		"iS": 829,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/timebar1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/timebar2.png": {
+		"ft": 32768,
+		"iS": 1132,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/timebar2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/timebar3.png": {
+		"ft": 32768,
+		"iS": 1221,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/timebar3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/timebar4.png": {
+		"ft": 32768,
+		"iS": 1230,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/timebar4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/timebar5.png": {
+		"ft": 32768,
+		"iS": 1224,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/timebar5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/timebar6.png": {
+		"ft": 32768,
+		"iS": 1131,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/timebar6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/timebarsdark.png": {
+		"ft": 32768,
+		"iS": 1820,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/timebarsdark.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/timemanager.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/timemanager-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/timer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/timer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/tool1.png": {
+		"ft": 32768,
+		"iS": 11600,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tool1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/tool1@2x.png": {
+		"ft": 32768,
+		"iS": 23264,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tool1@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/tool2.png": {
+		"ft": 32768,
+		"iS": 10953,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tool2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/tool3.png": {
+		"ft": 32768,
+		"iS": 8954,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tool3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/tool4.png": {
+		"ft": 32768,
+		"iS": 10300,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tool4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/tool5.png": {
+		"ft": 32768,
+		"iS": 12295,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tool5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/tool7.png": {
+		"ft": 32768,
+		"iS": 11016,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tool7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/tool8.png": {
+		"ft": 32768,
+		"iS": 8771,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/tool8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/activities\/atrapa\/thd\/variable.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/variable-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/atrapa\/thd\/variablescontainer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/activities\/atrapa\/thd\/variablescontainer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/activities\/burbujas\/apple-touch-icon-1024x1024.png": {
 		"ft": 32768,
 		"iS": 377107,
 		"oA": 0,
-		"oAP": "\/activity\/apple-touch-icon-1024x1024.png",
+		"oAP": "\/activities\/burbujas\/apple-touch-icon-1024x1024.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/apple-touch-icon-114x114.png": {
+	"\/activities\/burbujas\/apple-touch-icon-114x114.png": {
 		"ft": 32768,
 		"iS": 11596,
 		"oA": 0,
-		"oAP": "\/activity\/apple-touch-icon-114x114.png",
+		"oAP": "\/activities\/burbujas\/apple-touch-icon-114x114.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/apple-touch-icon-120x120.png": {
+	"\/activities\/burbujas\/apple-touch-icon-120x120.png": {
 		"ft": 32768,
 		"iS": 12453,
 		"oA": 0,
-		"oAP": "\/activity\/apple-touch-icon-120x120.png",
+		"oAP": "\/activities\/burbujas\/apple-touch-icon-120x120.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/apple-touch-icon-144x144.png": {
+	"\/activities\/burbujas\/apple-touch-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 16869,
 		"oA": 0,
-		"oAP": "\/activity\/apple-touch-icon-144x144.png",
+		"oAP": "\/activities\/burbujas\/apple-touch-icon-144x144.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/apple-touch-icon-152x152.png": {
+	"\/activities\/burbujas\/apple-touch-icon-152x152.png": {
 		"ft": 32768,
 		"iS": 18297,
 		"oA": 0,
-		"oAP": "\/activity\/apple-touch-icon-152x152.png",
+		"oAP": "\/activities\/burbujas\/apple-touch-icon-152x152.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/apple-touch-icon-167x167.png": {
+	"\/activities\/burbujas\/apple-touch-icon-167x167.png": {
 		"ft": 32768,
 		"iS": 21402,
 		"oA": 0,
-		"oAP": "\/activity\/apple-touch-icon-167x167.png",
+		"oAP": "\/activities\/burbujas\/apple-touch-icon-167x167.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/apple-touch-icon-180x180.png": {
+	"\/activities\/burbujas\/apple-touch-icon-180x180.png": {
 		"ft": 32768,
 		"iS": 24219,
 		"oA": 0,
-		"oAP": "\/activity\/apple-touch-icon-180x180.png",
+		"oAP": "\/activities\/burbujas\/apple-touch-icon-180x180.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/apple-touch-icon-57x57.png": {
+	"\/activities\/burbujas\/apple-touch-icon-57x57.png": {
 		"ft": 32768,
 		"iS": 4745,
 		"oA": 0,
-		"oAP": "\/activity\/apple-touch-icon-57x57.png",
+		"oAP": "\/activities\/burbujas\/apple-touch-icon-57x57.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/apple-touch-icon-60x60.png": {
+	"\/activities\/burbujas\/apple-touch-icon-60x60.png": {
 		"ft": 32768,
 		"iS": 5130,
 		"oA": 0,
-		"oAP": "\/activity\/apple-touch-icon-60x60.png",
+		"oAP": "\/activities\/burbujas\/apple-touch-icon-60x60.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/apple-touch-icon-72x72.png": {
+	"\/activities\/burbujas\/apple-touch-icon-72x72.png": {
 		"ft": 32768,
 		"iS": 6581,
 		"oA": 0,
-		"oAP": "\/activity\/apple-touch-icon-72x72.png",
+		"oAP": "\/activities\/burbujas\/apple-touch-icon-72x72.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/apple-touch-icon-76x76.png": {
+	"\/activities\/burbujas\/apple-touch-icon-76x76.png": {
 		"ft": 32768,
 		"iS": 7184,
 		"oA": 0,
-		"oAP": "\/activity\/apple-touch-icon-76x76.png",
+		"oAP": "\/activities\/burbujas\/apple-touch-icon-76x76.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/coast-228x228.png": {
+	"\/activities\/burbujas\/coast-228x228.png": {
 		"ft": 32768,
 		"iS": 35862,
 		"oA": 0,
-		"oAP": "\/activity\/coast-228x228.png",
+		"oAP": "\/activities\/burbujas\/coast-228x228.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/ct.css": {
+	"\/activities\/burbujas\/ct.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/activity\/ct-min.css",
+		"oAP": "\/activities\/burbujas\/ct-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/activity\/ct.js": {
+	"\/activities\/burbujas\/ct.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/activity\/ct-min.js",
+		"oAP": "\/activities\/burbujas\/ct-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/activity\/favicon-16x16.png": {
+	"\/activities\/burbujas\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 753,
 		"oA": 0,
-		"oAP": "\/activity\/favicon-16x16.png",
+		"oAP": "\/activities\/burbujas\/favicon-16x16.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/favicon-32x32.png": {
+	"\/activities\/burbujas\/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 1860,
 		"oA": 0,
-		"oAP": "\/activity\/favicon-32x32.png",
+		"oAP": "\/activities\/burbujas\/favicon-32x32.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/favicon-48x48.png": {
+	"\/activities\/burbujas\/favicon-48x48.png": {
 		"ft": 32768,
 		"iS": 3605,
 		"oA": 0,
-		"oAP": "\/activity\/favicon-48x48.png",
+		"oAP": "\/activities\/burbujas\/favicon-48x48.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/favicon-64x64.png": {
+	"\/activities\/burbujas\/favicon-64x64.png": {
 		"ft": 32768,
 		"iS": 4315,
 		"oA": 0,
-		"oAP": "\/activity\/favicon-64x64.png",
+		"oAP": "\/activities\/burbujas\/favicon-64x64.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/favicon.ico": {
+	"\/activities\/burbujas\/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/activity\/favicon.ico",
+		"oAP": "\/activities\/burbujas\/favicon.ico",
 		"oF": 0
 		},
-	"\/activity\/fonts\/f446f037a-6d46-40de-beb7-5007d21290c2.ttf": {
+	"\/activities\/burbujas\/fonts\/f446f037a-6d46-40de-beb7-5007d21290c2.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/activity\/fonts\/f446f037a-6d46-40de-beb7-5007d21290c2.ttf",
+		"oAP": "\/activities\/burbujas\/fonts\/f446f037a-6d46-40de-beb7-5007d21290c2.ttf",
 		"oF": 0
 		},
-	"\/activity\/fonts\/f446f037a-6d46-40de-beb7-5007d21290c2.ttf.woff": {
+	"\/activities\/burbujas\/fonts\/f446f037a-6d46-40de-beb7-5007d21290c2.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/activity\/fonts\/f446f037a-6d46-40de-beb7-5007d21290c2.ttf.woff",
+		"oAP": "\/activities\/burbujas\/fonts\/f446f037a-6d46-40de-beb7-5007d21290c2.ttf.woff",
 		"oF": 0
 		},
-	"\/activity\/fonts\/f9fbd8c1b-0668-412e-9c99-4ca90123a2a4.ttf": {
+	"\/activities\/burbujas\/fonts\/f9fbd8c1b-0668-412e-9c99-4ca90123a2a4.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/activity\/fonts\/f9fbd8c1b-0668-412e-9c99-4ca90123a2a4.ttf",
+		"oAP": "\/activities\/burbujas\/fonts\/f9fbd8c1b-0668-412e-9c99-4ca90123a2a4.ttf",
 		"oF": 0
 		},
-	"\/activity\/fonts\/f9fbd8c1b-0668-412e-9c99-4ca90123a2a4.ttf.woff": {
+	"\/activities\/burbujas\/fonts\/f9fbd8c1b-0668-412e-9c99-4ca90123a2a4.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/activity\/fonts\/f9fbd8c1b-0668-412e-9c99-4ca90123a2a4.ttf.woff",
+		"oAP": "\/activities\/burbujas\/fonts\/f9fbd8c1b-0668-412e-9c99-4ca90123a2a4.ttf.woff",
 		"oF": 0
 		},
-	"\/activity\/howler.min.js": {
+	"\/activities\/burbujas\/howler.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/activity\/howler.min-min.js",
+		"oAP": "\/activities\/burbujas\/howler.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/activity\/img\/a0.json": {
+	"\/activities\/burbujas\/img\/a0.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/activity\/img\/a0-min.json",
+		"oAP": "\/activities\/burbujas\/img\/a0-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/activity\/img\/a0.png": {
+	"\/activities\/burbujas\/img\/a0.png": {
 		"ft": 32768,
 		"iS": 236601,
 		"oA": 0,
-		"oAP": "\/activity\/img\/a0.png",
+		"oAP": "\/activities\/burbujas\/img\/a0.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/img\/t0.png": {
+	"\/activities\/burbujas\/img\/t0.png": {
 		"ft": 32768,
 		"iS": 10222,
 		"oA": 0,
-		"oAP": "\/activity\/img\/t0.png",
+		"oAP": "\/activities\/burbujas\/img\/t0.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/img\/t1.png": {
+	"\/activities\/burbujas\/img\/t1.png": {
 		"ft": 32768,
 		"iS": 10361,
 		"oA": 0,
-		"oAP": "\/activity\/img\/t1.png",
+		"oAP": "\/activities\/burbujas\/img\/t1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/img\/t2.png": {
+	"\/activities\/burbujas\/img\/t2.png": {
 		"ft": 32768,
 		"iS": 10319,
 		"oA": 0,
-		"oAP": "\/activity\/img\/t2.png",
+		"oAP": "\/activities\/burbujas\/img\/t2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/img\/t3.png": {
+	"\/activities\/burbujas\/img\/t3.png": {
 		"ft": 32768,
 		"iS": 10354,
 		"oA": 0,
-		"oAP": "\/activity\/img\/t3.png",
+		"oAP": "\/activities\/burbujas\/img\/t3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/img\/t4.png": {
+	"\/activities\/burbujas\/img\/t4.png": {
 		"ft": 32768,
 		"iS": 8584,
 		"oA": 0,
-		"oAP": "\/activity\/img\/t4.png",
+		"oAP": "\/activities\/burbujas\/img\/t4.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/img\/t5.png": {
+	"\/activities\/burbujas\/img\/t5.png": {
 		"ft": 32768,
 		"iS": 209406,
 		"oA": 0,
-		"oAP": "\/activity\/img\/t5.png",
+		"oAP": "\/activities\/burbujas\/img\/t5.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/img\/t6.png": {
+	"\/activities\/burbujas\/img\/t6.png": {
 		"ft": 32768,
 		"iS": 166094,
 		"oA": 0,
-		"oAP": "\/activity\/img\/t6.png",
+		"oAP": "\/activities\/burbujas\/img\/t6.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/img\/t7.png": {
+	"\/activities\/burbujas\/img\/t7.png": {
 		"ft": 32768,
 		"iS": 164494,
 		"oA": 0,
-		"oAP": "\/activity\/img\/t7.png",
+		"oAP": "\/activities\/burbujas\/img\/t7.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/img\/t8.png": {
+	"\/activities\/burbujas\/img\/t8.png": {
 		"ft": 32768,
 		"iS": 222826,
 		"oA": 0,
-		"oAP": "\/activity\/img\/t8.png",
+		"oAP": "\/activities\/burbujas\/img\/t8.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/index.html": {
+	"\/activities\/burbujas\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/activity\/index.html",
+		"oAP": "\/activities\/burbujas\/index.html",
 		"oF": 0
 		},
-	"\/activity\/mstile-150x150.png": {
+	"\/activities\/burbujas\/mstile-150x150.png": {
 		"ft": 32768,
 		"iS": 17699,
 		"oA": 0,
-		"oAP": "\/activity\/mstile-150x150.png",
+		"oAP": "\/activities\/burbujas\/mstile-150x150.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/mstile-310x310.png": {
+	"\/activities\/burbujas\/mstile-310x310.png": {
 		"ft": 32768,
 		"iS": 56188,
 		"oA": 0,
-		"oAP": "\/activity\/mstile-310x310.png",
+		"oAP": "\/activities\/burbujas\/mstile-310x310.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/activity\/pixi-legacy.min.js.map": {
+	"\/activities\/burbujas\/pixi-legacy.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/activity\/pixi-legacy.min.js.map",
+		"oAP": "\/activities\/burbujas\/pixi-legacy.min.js.map",
 		"oF": 0
 		},
-	"\/activity\/pixi-particles.min.js": {
+	"\/activities\/burbujas\/pixi-particles.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/activity\/pixi-particles.min-min.js",
+		"oAP": "\/activities\/burbujas\/pixi-particles.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/activity\/pixi.min.js": {
+	"\/activities\/burbujas\/pixi.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/activity\/pixi.min-min.js",
+		"oAP": "\/activities\/burbujas\/pixi.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/activity\/snd\/4db9c70a-ee26-4848-96d6-91f8a462ab0a.mp3": {
+	"\/activities\/burbujas\/snd\/4db9c70a-ee26-4848-96d6-91f8a462ab0a.mp3": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/activity\/snd\/4db9c70a-ee26-4848-96d6-91f8a462ab0a.mp3",
+		"oAP": "\/activities\/burbujas\/snd\/4db9c70a-ee26-4848-96d6-91f8a462ab0a.mp3",
 		"oF": 0
 		},
-	"\/activity\/snd\/57abff83-e0f7-46ae-b258-56eb8c1dfe48.mp3": {
+	"\/activities\/burbujas\/snd\/57abff83-e0f7-46ae-b258-56eb8c1dfe48.mp3": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/activity\/snd\/57abff83-e0f7-46ae-b258-56eb8c1dfe48.mp3",
+		"oAP": "\/activities\/burbujas\/snd\/57abff83-e0f7-46ae-b258-56eb8c1dfe48.mp3",
 		"oF": 0
 		},
-	"\/activity\/snd\/5a59936c-e924-42ce-9714-0c9f7681bc86.mp3": {
+	"\/activities\/burbujas\/snd\/5a59936c-e924-42ce-9714-0c9f7681bc86.mp3": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/activity\/snd\/5a59936c-e924-42ce-9714-0c9f7681bc86.mp3",
+		"oAP": "\/activities\/burbujas\/snd\/5a59936c-e924-42ce-9714-0c9f7681bc86.mp3",
 		"oF": 0
 		},
-	"\/activity\/snd\/bced79b7-a599-4e57-ac46-f8783ee1090c.mp3": {
+	"\/activities\/burbujas\/snd\/bced79b7-a599-4e57-ac46-f8783ee1090c.mp3": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/activity\/snd\/bced79b7-a599-4e57-ac46-f8783ee1090c.mp3",
+		"oAP": "\/activities\/burbujas\/snd\/bced79b7-a599-4e57-ac46-f8783ee1090c.mp3",
 		"oF": 0
 		},
-	"\/activity\/snd\/efe1e943-a521-4ffa-9341-067dd7e77d99.mp3": {
+	"\/activities\/burbujas\/snd\/efe1e943-a521-4ffa-9341-067dd7e77d99.mp3": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/activity\/snd\/efe1e943-a521-4ffa-9341-067dd7e77d99.mp3",
+		"oAP": "\/activities\/burbujas\/snd\/efe1e943-a521-4ffa-9341-067dd7e77d99.mp3",
 		"oF": 0
 		},
-	"\/activity\/sscd.min.js": {
+	"\/activities\/burbujas\/sscd.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/activity\/sscd.min-min.js",
+		"oAP": "\/activities\/burbujas\/sscd.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/activity\/yandex-browser-50x50.png": {
+	"\/activities\/burbujas\/yandex-browser-50x50.png": {
 		"ft": 32768,
 		"iS": 3936,
 		"oA": 0,
-		"oAP": "\/activity\/yandex-browser-50x50.png",
+		"oAP": "\/activities\/burbujas\/yandex-browser-50x50.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -885,7 +3278,7 @@
 	"creationDate": 654709644,
 	"displayValue": "THD-v2",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "\/activity\/apple-touch-icon-120x120.png",
+	"iconImageName": "\/activities\/burbujas\/apple-touch-icon-120x120.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -2894,7 +5287,7 @@
 			"flagValue": -1
 			},
 		"comments": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"comparisons": {

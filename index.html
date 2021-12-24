@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Home Depot | Burbujas de Pintura</title>
+    <title>The Home Depot</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;display=swap">
     <link href="https://cdn.jsdelivr.net/npm/quasar@2.1.0/dist/quasar.prod.css" rel="stylesheet" type="text/css">
@@ -16,7 +16,7 @@
         <!--Header-->
         <div class="row q-my-md">
           <div class="col-12 text-center">
-            <q-img src="app/thehomedepot.svg" alt="The Home Depot" style="max-width: 120px"></q-img>
+            <q-img src="app/thehomedepot.svg" alt="The Home Depot" style="max-width: 120px; min-height: 120px" fit="contain"></q-img>
           </div>
         </div>
         <!--Certificados-->
@@ -24,7 +24,8 @@
           <div class="row">
             <div class="col-10 offset-1 text-center text-white q-py-md">
               <div class="text-h5 text-bold">Bienvenido a</div>
-              <div class="text-h4 text-bold">Burbujas de Pintura</div>
+              <div class="text-h4 text-bold" v-if="loadgame=='atrapa'">Atrapa las Herramientas</div>
+              <div class="text-h4 text-bold" v-else-if="loadgame=='burbujas'">Burbujas de Pintura</div>
               <div class="text-h6 q-mt-md">Antes de empezar, por favor indica el certificado electrónico que quisieras recibir en caso de resultar ganador.</div>
               <div class="text-h6 q-mt-md">Selecciona tu certificado de valor indicado.</div>
             </div>
@@ -69,7 +70,7 @@
                   <q-btn color="grey" push label="Cerrar" v-close-popup></q-btn>
                 </div>
                 <div class="col-12 col-sm-8 text-center">
-                  <q-btn color="primary" push label="Seleccionar y Jugar" size="lg" @click="chooseit"></q-btn>
+                  <q-btn color="primary" push label="Seleccionar y Jugar" size="lg" @click="chooseit(itemActive[0])"></q-btn>
                 </div>
               </div>
             </q-card-section>
@@ -78,13 +79,13 @@
         <!--Actividad-->
         <q-dialog v-model="dialogActivity" maximized persistent>
           <q-card class="activitycard">
-            <iframe v-if="dialogActivity" src="activity/index.html" ref="activity" @load="activityFN"></iframe>
+            <iframe v-if="dialogActivity" :src="'activities/'+loadgame+'/index.html'" ref="activity" @load="activityFN"></iframe>
             <q-dialog v-model="dialogFinish" position="bottom" seamless>
-              <q-card class="bg-transparent">
-                <q-card-section class="text-center">
+              <q-card class="bg-primary">
+                <q-card-section class="text-center q-pb-xs">
                   <div><span class="q-pa-sm bg-white rounded-borders text-body1">ID de participación:
                       <q-badge :label="idparticipacion" color="primary"></q-badge></span></div>
-                  <div class="q-ma-md">
+                  <div class="q-ma-xs q-mt-md">
                     <q-btn label="Terminar" push color="dark" no-caps type="a" href="https://homedepot.com.mx/"></q-btn>
                   </div>
                 </q-card-section>
@@ -102,7 +103,15 @@
                   <q-icon name="confirmation_number"></q-icon>
                 </template>
               </q-input>
-              <q-btn @click="ticketCheck" label="Continuar" push size="lg" text-color="primary" color="white"></q-btn>
+              <q-btn @click="" label="Continuar" push size="lg" text-color="primary" color="white"></q-btn>
+              <!--q-btn(@click="ticketCheck" label="Continuar" push size="lg" text-color="primary" color="white")-->
+            </q-card-section>
+          </q-card>
+        </q-dialog>
+        <q-dialog v-model="dialogError" persistent maximized>
+          <q-card class="bg-primary shadow-0">
+            <q-card-section class="text-white justify-center items-center flex column full-height q-mx-auto" style="max-width: 480px; ">
+              <div class="text-h6 text-center text-bold" v-html="dialogErrorTxt"></div>
             </q-card-section>
           </q-card>
         </q-dialog>
@@ -180,6 +189,7 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/quasar@2.1.0/dist/quasar.umd.prod.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="app/app.js"></script>
   </body>
 </html>

@@ -3,7 +3,6 @@
   margin: 0;
 }
 body {
-  background-image: url(../app/bgbubble.png);
   font-family: 'Open Sans', 'Helvetica', sans-serif;
   font-weight: 400;
 }
@@ -25,7 +24,6 @@ footer.blue {
 }
 .activitycard {
   background-color: var(--q-primary);
-  background-image: url(../app/bgbubbleT.png);
   position: relative;
   height: 100%;
 }

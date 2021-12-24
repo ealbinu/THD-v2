@@ -15,5 +15,5 @@ q-dialog(v-model="dialogCert" persistent)
                         .col-12.col-sm-4.text-center
                             q-btn(color="grey" push label="Cerrar" v-close-popup)
                         .col-12.col-sm-8.text-center
-                            q-btn(color="primary" push label="Seleccionar y Jugar" size="lg" @click="chooseit")
+                            q-btn(color="primary" push label="Seleccionar y Jugar" size="lg" @click="chooseit(itemActive[0])")
                             
