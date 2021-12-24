@@ -108,8 +108,8 @@ const app = Vue.createApp({
         }
 
         const surveyCheck = async () => {
-            const res = await axios.post( api+'/ValidateSurvey', JSON.stringify({ SurveyID: surveyNum.value }) )
-            if(res.data.d!=0){
+            const res = await axios.post( api+'/ValidateSurvey', { SurveyID: surveyNum.value } )
+            if(res.data.d==0){
                 console.log('OK', res.data)
             } else {
                 dialogError.value = true
@@ -133,7 +133,9 @@ const app = Vue.createApp({
                 surveyNum.value = hasSurveyID
                 surveyCheck()
             } else {
-                dialogTicket.value = true
+                //dialogTicket.value = true
+                dialogError.value = true
+                dialogErrorTxt.value = 'Error en el código de encuesta [SurveyID].'
             }
 
 
