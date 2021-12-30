@@ -3012,6 +3012,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/activities\/siluetas\/ct-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/activities\/siluetas\/ct-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/activities\/siluetas\/ct.css": {
 		"aP": 1,
 		"bl": 0,
@@ -3702,22 +3712,6 @@
 		"ft": 512,
 		"oA": 0,
 		"oAP": "\/index.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/index_v1.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/index_v1.html",
-		"oF": 0
-		},
-	"\/index_v1.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/index_v1.html",
 		"oF": 0,
 		"oS": 0
 		}

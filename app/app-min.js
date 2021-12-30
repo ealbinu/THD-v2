@@ -37,7 +37,7 @@ const app = Vue.createApp({
         const ticketNum = ref(null)
         const surveyNum = ref(null)
 
-        const loadgame = ref('atrapa')
+        const loadgame = ref('siluetas')
 
         const dialogError = ref(false)
         const dialogErrorTxt = ref('')
