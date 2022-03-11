@@ -20,13 +20,13 @@
           </div>
         </div>
         <!--Certificados-->
-        <section class="bg-primary q-pa-md rounded-borders shadow-24">
+        <section class="bg-primary q-pa-md rounded-borders shadow-24" v-if="loading==false">
           <div class="row">
             <div class="col-10 offset-1 text-center text-white q-py-md">
               <div class="text-h5 text-bold">Bienvenido a</div>
               <div class="text-h4 text-bold" v-if="loadgame=='atrapa'">Atrapa las Herramientas</div>
               <div class="text-h4 text-bold" v-else-if="loadgame=='burbujas'">Burbujas de Pintura</div>
-              <div class="text-h4 text-bold" v-else-if="loadgame=='siluetas'">Arrastra las herramientas</div>
+              <div class="text-h4 text-bold" v-else-if="loadgame=='siluetas'">Acomoda las herramientas</div>
               <div class="text-h6 q-mt-md">Antes de empezar, por favor indica el certificado electrónico que quisieras recibir en caso de resultar ganador.</div>
               <div class="text-h6 q-mt-md">Selecciona tu certificado de valor indicado.</div>
             </div>
@@ -87,7 +87,7 @@
                   <div><span class="q-pa-sm bg-white rounded-borders text-body1">ID de participación:
                       <q-badge :label="idparticipacion" color="primary"></q-badge></span></div>
                   <div class="q-ma-xs q-mt-md">
-                    <q-btn label="Terminar" push color="dark" no-caps type="a" href="https://homedepot.com.mx/"></q-btn>
+                    <q-btn label="Terminar" push color="dark" no-caps type="a" href="https://homedepot.com.mx/" target="_parent"></q-btn>
                   </div>
                 </q-card-section>
               </q-card>
