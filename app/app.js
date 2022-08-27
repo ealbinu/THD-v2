@@ -83,6 +83,9 @@ const app = Vue.createApp({
       ],
     ];
 
+
+    const statusTrace = ref('')
+
     const dialogCert = ref(false);
     const dialogTerminos = ref(false);
     const dialogActivity = ref(false);
@@ -142,19 +145,30 @@ const app = Vue.createApp({
       const res = await axios.post(api + "/SaveData", buildRequest(msg));
       idparticipacion.value = res.data.d;
       dialogFinish.value = true;
+      FBTracer('finished', buildRequest(msg))
     };
 
     const receiveMessage = (event) => {
+      let eventdata = null
+      
       if (event.data == "closegame") {
         closeGame();
       } else {
+        if(typeof event.data != 'object'){
+          eventdata = JSON.parse(event.data)
+        }
         try {
-          var jsonparsed = JSON.parse(event.data);
-          finished(jsonparsed);
+          if(eventdata.state=='gameover'){
+            finished(eventdata);
+          }
         } catch (e) {
           return false;
         }
       }
+      if(eventdata.state){
+        FBTracer(eventdata.state)
+      }
+    
     };
 
     window.addEventListener("message", receiveMessage);
@@ -168,8 +182,9 @@ const app = Vue.createApp({
         SurveyID: surveyNum.value,
       });
       if (res.data.d == 0) {
-        console.log("OK", res.data);
         loading.value = false;
+        // TRACE ENTERED
+        FBTracer('SurveyId_OK')
       } else {
         dialogError.value = true;
         dialogErrorTxt.value =
@@ -208,8 +223,8 @@ const app = Vue.createApp({
       //Feb2022
       // 1- VERIFICAR QUE SE RECIBIO DESDE SURVEY-SITE
       const res = axios.post(api + "/SaveData", buildRequest(false));
-      console.log("%c traceFN!", "background: #222; color: #bada55");
-      console.warn(buildRequest(false));
+      //console.log("%c traceFN!", "background: #222; color: #bada55");
+      //console.warn(buildRequest(false));
     };
 
     const getIP = async () => {
@@ -220,6 +235,33 @@ const app = Vue.createApp({
       GETurl();
     };
     getIP();
+
+
+
+    const FBTracer = async (stateName, finisheddata) => {
+      statusTrace.value += stateName + '>'
+        let requestU = 'https://firestore.googleapis.com/v1/projects/thehdv2/databases/(default)/documents/idtrace/'+surveyNum.value+'?updateMask.fieldPaths=status&updateMask.fieldPaths=gameover&updateMask.fieldPaths=ip&updateMask.fieldPaths=finished&updateMask.fieldPaths=idparticipacion'
+        let requestV = {
+          status: {stringValue: statusTrace.value},
+          ip: {stringValue: userip.value},
+        }
+
+        if(stateName == 'gameover'){
+          requestV['gameover'] = {booleanValue: true}
+        }
+        if(stateName == 'finished'){
+          requestV['finished'] = {stringValue: JSON.stringify(finisheddata)}
+          requestV['idparticipacion'] = {stringValue: idparticipacion.value}
+        }
+
+        const responseFB = await axios.patch(requestU, {
+          fields: requestV
+        })
+
+        console.log(requestV)
+
+
+    } 
 
     return {
       certificados,
@@ -249,6 +291,12 @@ function postM() {
   app.call();
 }
 
+
+
+
+
+
+
 app.use(Quasar, {
   config: {
     brand: {
@@ -259,3 +307,8 @@ app.use(Quasar, {
   },
 });
 app.mount("#q-app");
+
+
+
+
+
