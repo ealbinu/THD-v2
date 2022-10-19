@@ -215,8 +215,8 @@ const app = Vue.createApp({
     const ticketCheck = () => {
       dialogTicket.value = false;
       loading.value = false;
-      dialogError.value = true
-      dialogErrorTxt.value = 'Ingresa un ticket válido.'
+      //dialogError.value = true
+      //dialogErrorTxt.value = 'Ingresa un ticket válido.'
     };
 
 
