@@ -83,11 +83,19 @@
             <iframe v-if="dialogActivity" :src="'activities/'+loadgame+'/index.html'" ref="activity" @load="activityFN"></iframe>
             <q-dialog v-model="dialogFinish" position="bottom" seamless>
               <q-card class="bg-primary">
-                <q-card-section class="text-center q-pb-xs">
+                <q-card-section class="text-center q-pb-xs" v-if="!retryGame">
                   <div><span class="q-pa-sm bg-white rounded-borders text-body1">ID de participación:
                       <q-badge :label="idparticipacion" color="primary"></q-badge></span></div>
                   <div class="q-ma-xs q-mt-md">
                     <q-btn label="Terminar" push color="dark" no-caps type="a" href="https://homedepot.com.mx/" target="_parent"></q-btn>
+                  </div>
+                </q-card-section>
+                <q-card-section class="text-center q-pb-xs" v-if="retryGame">
+                  <div>
+                    <div class="rounded-borders text-body1 text-white">¿Ocurrió un error?</div>
+                  </div>
+                  <div class="q-ma-xs q-my-md">
+                    <q-btn label="Participa nuevamente" push color="dark" no-caps @click="retryGameFN()"></q-btn>
                   </div>
                 </q-card-section>
               </q-card>

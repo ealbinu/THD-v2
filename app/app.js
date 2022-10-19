@@ -107,6 +107,8 @@ const app = Vue.createApp({
 
     const userip = ref();
 
+    const retryGame = ref(false)
+
     const loading = ref(true);
 
     const openit = (item) => {
@@ -141,12 +143,26 @@ const app = Vue.createApp({
     };
 
     const finished = async (msg) => {
+
       //Request
       const res = await axios.post(api + "/SaveData", buildRequest(msg));
       idparticipacion.value = res.data.d;
       dialogFinish.value = true;
       FBTracer('finished', buildRequest(msg))
     };
+
+    const finishedZeroPoints = () => {
+      retryGame.value = true
+      dialogFinish.value = true
+      FBTracer('ZeroPoints')
+    }
+    const retryGameFN = () => {
+      dialogActivity.value = false;
+      retryGame.value = false
+      dialogFinish.value = false
+      FBTracer('RetryGame')
+    }
+
 
     const receiveMessage = (event) => {
       let eventdata = null
@@ -159,7 +175,12 @@ const app = Vue.createApp({
         }
         try {
           if(eventdata.state=='gameover'){
-            finished(eventdata);
+            console.log(eventdata.score)
+            if(eventdata.score == 0){
+              finishedZeroPoints()
+            } else {
+              finished(eventdata);
+            }
           }
         } catch (e) {
           return false;
@@ -194,9 +215,11 @@ const app = Vue.createApp({
     const ticketCheck = () => {
       dialogTicket.value = false;
       loading.value = false;
-      //dialogError.value = true
-      //dialogErrorTxt.value = 'Ingresa un ticket válido.'
+      dialogError.value = true
+      dialogErrorTxt.value = 'Ingresa un ticket válido.'
     };
+
+
 
     const GETurl = () => {
       const queryString = window.location.search;
@@ -283,6 +306,8 @@ const app = Vue.createApp({
       dialogError,
       dialogErrorTxt,
       loading,
+      retryGame,
+      retryGameFN
     };
   },
 });
